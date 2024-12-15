@@ -1,0 +1,16 @@
+POST http://localhost:3001/api/sessions
+content-type: application/json
+
+{
+  "username": "ilariapasini31@gmail.com",
+  "password": "passwordsicurissima!1!"
+}
+###
+
+Checking if user is still logged-in.
+GET http://localhost:3001/api/sessions/current
+###
+
+Execute Log Out.
+DELETE http://localhost:3001/api/sessions/current
+###

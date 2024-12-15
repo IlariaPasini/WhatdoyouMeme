@@ -1,0 +1,88 @@
+/* Aggiungi questo nel tuo file src/index.css o in un altro file CSS globale */
+body {
+  font-family: 'andale mono', monospace;
+  font-size: 20px;
+}
+
+.cardStyle {
+  padding: 20px;
+  border: 5px solid cornflowerblue; /* Stile del bordo, larghezza e colore */
+  background-color: #fff;
+  color: black;
+  width: 300px;
+  height: 200px;
+  margin-top: 5px; /* Riduci lo spazio sopra la carta */
+  margin-bottom: 5px; /* Riduci lo spazio sotto la carta */
+
+  border-radius: 30px; /* Bordo smussato */
+  max-width: 300px; /* Larghezza massima per mantenere il contenuto leggibile */
+  max-height: 200px;
+  word-wrap: break-word; /* Assicura che il testo non esca dai bordi della carta */
+  text-size-adjust: 75%;
+  font-size: 20px; /* Assicura che il testo non esca dai bordi della carta */
+
+
+}
+.cardStyleSelected {
+  margin-top: 5px; /* Riduci lo spazio sopra la carta */
+  margin-bottom: 5px; /* Riduci lo spazio sotto la carta */
+  width: 300px;
+  height: 200px;
+  border: 5px solid cornflowerblue; /* Stile del bordo, larghezza e colore */
+  background-color: cornflowerblue;
+  color: white;
+  text-size-adjust: 75%;
+  border-radius: 30px; /* Bordo smussato */
+  max-width: 300px; /* Larghezza massima per mantenere il contenuto leggibile */
+  max-height: 200px;
+  word-wrap: break-word;
+  font-size: 20px; /* Assicura che il testo non esca dai bordi della carta */
+}
+.buttonWithContent.active,.buttonWithContent:active, .buttonWithContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  border: 5px solid cornflowerblue;
+  background-color: #fff;
+  color: black;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-radius: 30px;
+  word-wrap: break-word;
+  text-size-adjust: 75%;
+  font-size: 20px; 
+}
+
+.cardStyleCorrect {
+  margin-top: 5px; /* Riduci lo spazio sopra la carta */
+  margin-bottom: 5px; /* Riduci lo spazio sotto la carta */
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(121, 237, 100); /* Stile del bordo, larghezza e colore */
+  background-color: rgb(121, 237, 100);
+  color: black;
+  text-size-adjust: 75%;
+  border-radius: 30px; /* Bordo smussato */
+  max-width: 300px; /* Larghezza massima per mantenere il contenuto leggibile */
+  max-height: 200px;
+  word-wrap: break-word;
+  font-size: 20px; /* Assicura che il testo non esca dai bordi della carta */
+}
+
+.cardStyleWrong {
+  margin-top: 5px; /* Riduci lo spazio sopra la carta */
+  margin-bottom: 5px; /* Riduci lo spazio sotto la carta */
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(237, 100, 100); /* Stile del bordo, larghezza e colore */
+  background-color: rgb(237, 100, 100);
+  color: white;
+  text-size-adjust: 75%;
+  border-radius: 30px; /* Bordo smussato */
+  max-width: 300px; /* Larghezza massima per mantenere il contenuto leggibile */
+  max-height: 200px;
+  word-wrap: break-word;
+  font-size: 20px; /* Assicura che il testo non esca dai bordi della carta */
+}
